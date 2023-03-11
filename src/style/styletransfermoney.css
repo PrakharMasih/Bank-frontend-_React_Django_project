@@ -1,0 +1,63 @@
+.box {
+  height: 76vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+form {
+  width: 400px;
+  height: 350px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid rgba(128, 128, 128, 0.438) ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form h2{
+  font-family: poppins;
+  color: #3f8f49;
+}
+
+form select {
+  /* color: black; */
+  width: 16rem;
+  height: 2.5rem;
+  font-family: 'Poppins';
+  padding-left: 16px;
+  font-size: 16px;
+}
+
+form input {
+  color: black;
+  width: 16rem;
+  height: 2.5rem;
+  font-family: 'Poppins';
+  padding-left: 16px;
+  outline: none;
+  font-size: 16px;
+}
+
+.submitBtn {
+  background-color: #006CFA;
+  color: whitesmoke;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 0;
+  /* box-shadow: 0px 8px 90px #006cfa; */
+  outline: none;
+  border: none;
+  transition: .8s;
+}
+
+
+/* HOVER CSS */
+
+.submitBtn:hover{
+  box-shadow: 0px 8px 40px #006cfabf;
+  transition: .8s;
+  cursor: pointer;
+}
